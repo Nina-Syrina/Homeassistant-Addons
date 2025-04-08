@@ -1,20 +1,24 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
-version: "1.2.0"
-slug: example
-description: Example add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+name: Kavita
+version: "latest"
+slug: kavita
+description: "A self-hosted digital library for comics and eBooks."
 arch:
+  - amd64
   - armhf
   - armv7
   - aarch64
-  - amd64
-  - i386
-init: false
+ports:
+  5000/tcp: 5000
 map:
-  - share:rw
+  - type: addon_config
+    read_only: False
+  - type: share
+    read_only: False
+    path: /share/kavita
+usb: true
 options:
-  message: "Hello world..."
+  kavita_port: 5000
 schema:
-  message: "str?"
-image: "ghcr.io/home-assistant/{arch}-addon-example"
+  kavita_port: int(1024,65535)
+image: "ghcr.io/kareadita/kavita"
