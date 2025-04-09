@@ -7,7 +7,7 @@ arch:
   - amd64
   - aarch64
   - armhf
-  - i368
+  - i386
   - armv7
 ports:
   25600/tcp: 25600
