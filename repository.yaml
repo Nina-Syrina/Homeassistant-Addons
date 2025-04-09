@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Komga
-url: 'https://github.com/home-assistant/addons-example'
-maintainer: No one <awesome@example.com>
+name: Komga Add-On
+url: 'https://github.com/Nina-Syrina/Homeassistant-Addons'
+maintainer: Syrina <github@syrina.net>
