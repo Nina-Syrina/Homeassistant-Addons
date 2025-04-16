@@ -5,7 +5,7 @@ Hello! I have no idea what I'm doing but maybe this repository helps to get Komg
 I basically use a Raspberry PI5 with HAOS and mounted my external Harddrive, where all my manga are stored. I can simply drag all the manga files on my media share, which is being used by HA anyway. 
 You may need to add this rule [here](https://gist.githubusercontent.com/eklex/c5fac345de5be9d9bc420510617c86b5/raw/d7010307ccee5c904c2a79f345680ffe6c6651bf/80-mount-usb-to-media-by-label.rules) via [udev](https://github.com/home-assistant/operating-system/blob/59b687f0dbb5c963c4a1b16bc574437a1aff99b3/Documentation/configuration.md), if you want that too.
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Nina-Syrina/HA-K/)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Nina-Syrina/Homeassistant-Addons/)
 
 ## Add-ons
 
