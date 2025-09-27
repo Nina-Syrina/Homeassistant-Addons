@@ -16,4 +16,6 @@ map:
     read_only: false
   - type: media
     read_only: False
+  - type: share
+    read_only: false
 image: "ghcr.io/gotson/komga"
